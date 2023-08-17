@@ -17,7 +17,7 @@ serv = None
 port = 587
 
 os.chdir('modules/')
-parser = argparse.ArgumentParser(description="TOXIC-JOVAN")
+parser = argparse.ArgumentParser(description="Framework Hunner")
 parser.add_argument('login', help='Target email')
 parser.add_argument('password', help='Password list')
 args = parser.parse_args()
@@ -42,21 +42,25 @@ def banner():
                                        
                                        
 
+                                                    
 
 	'''
 	text2 = '''
 	          _ _                                    
-  
 
-  ______         __   ______  
- /      \       /  \ /      \ 
-|  $$$$$$\     /  $$|  $$$$$$\
-| $$___\$$    /  $$ | $$ __\$$
- \$$    \    /  $$  | $$|    \
- _\$$$$$$\  /  $$   | $$ \$$$$
-|  \__| $$ /  $$    | $$__| $$
- \$$    $$|  $$      \$$    $$
-  \$$$$$$  \$$        \$$$$$$                                                     
+  /$$$$$$       /$$ /$$$$$$ 
+ /$$__  $$     /$$//$$__  $$
+| $$  \__/    /$$/| $$  \__/
+|  $$$$$$    /$$/ | $$ /$$$$
+ \____  $$  /$$/  | $$|_  $$
+ /$$  \ $$ /$$/   | $$  \ $$
+|  $$$$$$//$$/    |  $$$$$$/
+ \______/|__/      \______/ 
+                            
+                            
+                            
+
+                                                     
 	'''
 	if random.randrange(0,1) == 0:
 		print(text1)
